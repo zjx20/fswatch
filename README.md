@@ -6,7 +6,7 @@ and on change will sync to a remote directory. The script can be
 easily modified to do whatever you want on a change event.
 
 **Install** 
-`pip install fsevents`
+`pip install MacFSEvents`
 
 
 **Note:** if you are running against a large directory, it will 
