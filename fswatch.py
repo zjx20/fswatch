@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """
 fswatch.py
 Marcus Kazmierczak, marcus@mkaz.com
@@ -7,7 +8,7 @@ This script will watch a local directory using Mac OS X FSEvents
 and on change will sync to a remote directory. The script can be
 easily modified to do whatever you want on a change event.
 
-requires: pip install fsevents
+requires: pip install MacFSEvents
 
 Note: if you are running against a large directory, it will 
 take awhile at the beginning, my hunch is it needs to traverse
